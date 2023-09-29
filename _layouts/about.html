@@ -39,6 +39,19 @@ layout: default
 
           <div class="clearfix">
             {{ content }}
+            <!-- Social -->
+            {%- if page.social %}
+              <div class="social">
+                <div class="contact-icons">
+                  {% include social.html %}
+                </div>
+  
+                <div class="contact-note">
+                  {{ site.contact_note }}
+                </div>
+  
+              </div>
+            {%- endif %}
           </div>
 
           <!-- News -->
@@ -48,10 +61,10 @@ layout: default
           {%- endif %}
 
           <!-- Latest posts -->
-          {% if page.latest_posts -%}
+          <!-- {% if page.latest_posts -%}
             <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
             {%- include latest_posts.html %}
-          {%- endif %}
+          {%- endif %} -->
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
@@ -59,20 +72,7 @@ layout: default
             (*) denotes equal contribution <br>
             {%- include selected_papers.html %}
           {%- endif %}
-
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-
-            </div>
-          {%- endif %}
+          
         </article>
 
 </div>
