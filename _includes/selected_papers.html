@@ -1,4 +1,19 @@
+<!-- 
+{% assign years = [2023, 2022] %}
+{%- for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  <div class="publications">
+    {% bibliography -f {{ site.scholar.bibliography }} -q "@*[year={{y}}]* and @*[selected=true]*" %}
+  </div>
+{% endfor %} -->
 
-          <div class="publications">
-            {% bibliography -f {{ site.scholar.bibliography }} -q @*[selected=true]* %}
-          </div>
+<!-- <h2 class="year">{{2023}}</h2> -->
+<div class="publications">
+  {% bibliography -f {{ site.scholar.bibliography }} -q @*[selected=true]* %}
+</div>
+
+<!-- <h2 class="year">{{2023}}</h2> -->
+<!-- 
+<div class="publications">
+  {% bibliography -f {{ site.scholar.bibliography }} -q @*[year=2023]* %}
+</div> -->
