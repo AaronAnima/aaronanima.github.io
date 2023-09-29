@@ -60,17 +60,19 @@ layout: default
             {%- include news.html limit=true %}
           {%- endif %}
 
-          <!-- Latest posts -->
-          <!-- {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
-            {%- include latest_posts.html %}
-          {%- endif %} -->
-
           <!-- Selected papers -->
           {% if page.selected_papers -%}
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
             (*) denotes equal contribution <br>
-            {%- include selected_papers.html %}
+            <h2 class="year">2023</h2>
+            <div class="publications">
+              {% bibliography -f {{ site.scholar.bibliography }} -q @*[year=2023]* %}
+            </div>
+            <h2 class="year">2022</h2>
+            <div class="publications">
+              {% bibliography -f {{ site.scholar.bibliography }} -q @*[year=2022]* %}
+            </div>
+            
           {%- endif %}
           
         </article>
