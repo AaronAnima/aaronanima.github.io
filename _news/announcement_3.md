@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<b><font color="red">Three</font></b> paper gets accepted to NeurIPS 2023
+<b><font color="red">Three</font></b> paper gets accepted to <em>NeurIPS 2023</em>

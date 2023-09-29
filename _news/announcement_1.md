@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 
-<b><font color="red" >One</font></b> paper gets accepted to SIGGRAPH Asia 2023
+<b><font color="red" >One</font></b> paper gets accepted to <em>SIGGRAPH Asia 2023</em>
