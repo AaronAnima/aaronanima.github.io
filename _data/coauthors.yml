@@ -1,34 +1,49 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Dong":
+  - firstname: ["Hao"]
+    url: https://zsdonghao.github.io/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Jiyao":
+  - firstname: ["Zhang"]
+    url: https://jiyao06.github.io/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Tianhao":
+  - firstname: ["Wu"]
+    url: https://tianhaowuhz.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Hongcheng":
+  - firstname: ["Wang"]
+    url: https://whcpumpkin.github.io/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+
+"Ma":
+  - firstname: ["Xiaoxuan"]
+    url: https://shirleymaxx.github.io
+
+"Su":
+  - firstname: ["Jiajun"]
+    url: https://scholar.google.com/citations?user=DoUvUz4AAAAJ&hl=zh-CN
+
+"Wang":
+  - firstname: ["Chunyu"]
+    url: https://www.chunyuwang.org
+  - firstname: ["Yizhou"]
+    url: https://cfcs.pku.edu.cn/english/people/faculty/yizhouwang
+
+"Wu":
+  - firstname: ["Mingdong"]
+    url: https://aaronanima.github.io/
+
+"Zhong":
+  - firstname: ["Fangwei"]
+    url: https://fangweizhong.xyz/
+
+"Zhu":
+  - firstname: ["Wentao"]
+    url: https://weotao.live/
+
+
+
