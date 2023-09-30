@@ -54,8 +54,8 @@
           {%- for author in entry.author_array limit: author_array_limit -%}
             {%- assign author_is_self = false -%}
             {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
-            {%- if author_last_name == site.scholar.last_name -%}
-              {%- if site.scholar.first_name contains author.first -%}
+            {%- if author_last_name == "Wu" -%}
+              {%- if author.first == "Mingdong" -%}
                 {%- assign author_is_self = true -%}
               {%- endif -%}
             {%- endif -%}
@@ -74,7 +74,7 @@
               {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
             {%- endif -%}
             {%- if author_is_self -%}
-              <em>{{author.first}} {{author.last}}</em>
+              <u><strong>{{author.first}} {{author.last}}</strong></u>
             {%- else -%}
               {%- if coauthor_url -%}
                 <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
