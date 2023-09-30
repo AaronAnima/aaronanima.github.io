@@ -63,7 +63,7 @@ layout: default
           <!-- Selected papers -->
           {% if page.selected_papers -%}
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
-            (*) denotes equal contribution <br>
+            (*) indicates equal contribution <br>
             <h2 class="year">2023</h2>
             <div class="publications">
               {% bibliography -f {{ site.scholar.bibliography }} -q @*[year=2023]* %}

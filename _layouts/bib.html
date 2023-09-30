@@ -194,6 +194,9 @@
               <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
             {%- endif %}
           {%- endif %}
+          {%- if entry.sota_link %}
+            <a href="{{entry.sota_link}}"><img src="{{entry.sota_badge}}" alt="PWC" /></a>
+          {%- endif %}
           </div>
 
           {% if entry.abstract -%}
@@ -247,12 +250,13 @@
         <div class="col-sm-3 preview">
           {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          <img class="preview z-depth-2 rounded" src="{{ entry.preview }}">
           {%- else -%}
-          <img class="preview z-depth-1 rounded"
+          <img class="preview z-depth-2 rounded"
             src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
           {%- endif -%}
           {%- endif -%}
         </div>
+        
 
       </div>
