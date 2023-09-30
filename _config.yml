@@ -273,8 +273,8 @@ jekyll-minifier:
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Wu]
+  first_name: [Mingdong]
 
   style: apa
   locale: en

@@ -11,29 +11,25 @@
 "Wu":
   - firstname: ["Tianhao"]
     url: https://tianhaowuhz.github.io/
-
-
-"Wang":
-  - firstname: ["Hongcheng"]
-    url: https://whcpumpkin.github.io/
-
+  - firstname: ["Chao"]
+    url: https://wuchaozju.github.io/
 
 "Li":
   - firstname: ["Xiaoqi"]
     url: https://clorislili.github.io/clorisLi/
 
+"Lu":
+  - firstname: ["Lin"]
+    url: http://irc.cs.sdu.edu.cn/~lulin/index.html
 
-"Wu":
-  - firstname: ["Chao"]
-    url: https://wuchaozju.github.io/
-    
+"Chen":
+  - firstname: ["Baoquan"]
+    url: http://baoquanchen.info/
+
 
 "Zhan":
   - firstname: ["Guanqi"]
     url: https://championchess.github.io/
-
-
-
 
 
 
@@ -50,10 +46,8 @@
     url: https://www.chunyuwang.org
   - firstname: ["Yizhou"]
     url: https://cfcs.pku.edu.cn/english/people/faculty/yizhouwang
-
-"Wu":
-  - firstname: ["Mingdong"]
-    url: https://aaronanima.github.io/
+  - firstname: ["Hongcheng"]
+    url: https://whcpumpkin.github.io/
 
 "Zhong":
   - firstname: ["Fangwei"]
