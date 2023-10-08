@@ -14,7 +14,12 @@
   title={GenPose: Generative Category-level Object Pose Estimation via Diffusion Models},
   author={Zhang*, Jiyao and Wu*, Mingdong and Dong, Hao},
   journal={Advances in Neural Information Processing Systems},
-  year={2023}
+  year={2023},
+  abstract={
+    We explore a pure generative approach to tackle the multi-hypothesis issue in 6D Category-level Object Pose Estimation. 
+    The key idea is to generate pose candidates using a score-based diffusion model and filter out outliers using an energy-based diffusion model. 
+    By aggregating the remaining candidates, we can obtain a robust and high-quality output pose.
+  }
 }
 
 @article{wu2023learning,
@@ -101,7 +106,12 @@
   author={Ci, Hai and Wu, Mingdong and Zhu, Wentao and Ma, Xiaoxuan and Dong, Hao and Zhong, Fangwei and Wang, Yizhou},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   pages={4800--4810},
-  year={2023}
+  year={2023},
+  abstract={
+    GFPose is a unified 3D human pose prior model that can be easily used for various applications, e.g., 3D human pose estimation, pose denoising and generation. 
+    Our key idea is to estimate the gradient field (a.k.a, score) of the perturbed human pose. 
+    We can leverage the gradient to adjust poses to be more plausible and feasible to a task specification. 
+  }
 }
 
 
@@ -113,12 +123,17 @@
   abbr={NeurIPS},
   bibtex_show={true},
   selected={true},
-  title={Tar{GF}: Learning Target Gradient Field for Object Rearrangement},
+  title={Tar{GF}: Learning Target Gradient Field to Rearrange Objects without Explicit Goal Specification},
   author={Wu*, Mingdong and Zhong*, Fangwei and Xia, Yulong and Dong, Hao},
   booktitle={Advances in Neural Information Processing Systems},
   editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
   year={2022},
-  url={https://openreview.net/forum?id=Euv1nXN98P3}
+  url={https://openreview.net/forum?id=Euv1nXN98P3},
+  abstract={
+    We study object rearrangement without explicit goal specification.
+    The agent is given examples from a target distribution and aims at rearranging objects to increase the likelihood of the distribution.
+    Our key idea is to learn a target gradient field that indicates the fastest direction to increase the likelihood from examples via score-matching.
+  }
 }
 
 
