@@ -5,7 +5,7 @@ permalink: /
 subtitle: A third-year Ph.D. student in <a href="https://english.pku.edu.cn/">Peking University (PKU)</a>.
 profile:
   align: left
-  image: wmd_2023.jpg
+  image: wmd_23_10.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
