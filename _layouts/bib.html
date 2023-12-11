@@ -187,9 +187,6 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
-          {%- if entry.news %}
-            <a href="{{ entry.news_link }}" class="btn btn-sm z-depth-0" role="button">"{{ entry.news }}"</a>
-          {%- endif %}
           {%- if entry.code %}
             {%- if entry.star %}
               <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a><img src="{{ entry.star }}" alt="code" />
@@ -199,6 +196,9 @@
           {%- endif %}
           {%- if entry.sota_link %}
             <a href="{{entry.sota_link}}"><img src="{{entry.sota_badge}}" alt="PWC" /></a>
+          {%- endif %}
+          {%- if entry.news %}
+            <a href="{{ entry.news_link }}" class="btn btn-sm z-depth-0" role="button"> entry.news </a>
           {%- endif %}
           </div>
 
