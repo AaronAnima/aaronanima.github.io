@@ -61,24 +61,6 @@ layout: default
           {%- endif %}
 
           <!-- Selected papers -->
-          <!-- {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
-            (*) indicates equal contribution <br>
-            <h2 class="year">2024</h2>
-            <div class="publications">
-              {% bibliography -f {{ site.scholar.bibliography }} -q "@*[year=2024]* and @*[selected=true]*" %}
-            </div>
-            <h2 class="year">2023</h2>
-            <div class="publications">
-              {% bibliography -f {{ site.scholar.bibliography }} -q "@*[year=2023]* and @*[selected=true]*" %}
-            </div>
-            <h2 class="year">2022</h2>
-            <div class="publications">
-              {% bibliography -f {{ site.scholar.bibliography }} -q "@*[year=2022]* and @*[selected=true]*" %}
-            </div>
-          {%- endif %} -->
-
-          <!-- Selected papers -->
           {% if page.selected_papers -%}
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
             (*) indicates equal contribution <br>
@@ -94,7 +76,7 @@ layout: default
             <div class="publications">
               {% bibliography -f {{ site.scholar.bibliography }} -q @*[year=2022]* %}
             </div>
-          {%- endif %}
+          {%- endif %}”
           
         </article>
 
