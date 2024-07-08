@@ -61,14 +61,11 @@ layout: default
           {%- endif %}
 
           <!-- Selected papers -->
-          <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></h2>
-          (*) indicates equal contribution <br>
-          <div class="full-list-button">
-            <a href="{{ '/publications/' | relative_url }}" class="btn btn-primary">Full List</a>
-          </div>
+          <h2>Selected Publications</h2>
+          (*) indicates equal contribution <br> [<a href="{{ '/publications/' | relative_url }}" class="btn btn-primary">Full List</a>]
           <h2 class="year">2024</h2>
           <div class="publications">
-            {% bibliography -f {{ site.scholar.bibliography }} -q @*[year=2024] and @*[selected=true] %}
+            {% bibliography -f {{ site.scholar.bibliography }} -q @*[selected=true] and @*[year=2024] %}
           </div>
           <h2 class="year">2023</h2>
           <div class="publications">
