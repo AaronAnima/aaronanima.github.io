@@ -18,4 +18,4 @@ I have been a Ph.D. student since 2021 in the School of Computer Science at PKU,
 I received my bachelor degree in 2021, from [Turing Class](https://cfcs.pku.edu.cn/english/research/turingprogram/introduction1/index.htm) in PKU.
 
 My research interest lies in robot learning, generative models, reinforcement learning and 3D perception problems.
-I aim to build intelligent embodied agents that automatically discover and perform tasks.
+I aim to build intelligent embodied agents 
