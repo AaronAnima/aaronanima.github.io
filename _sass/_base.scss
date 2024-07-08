@@ -404,6 +404,7 @@ footer.sticky-bottom {
       .badge {
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color) !important;
+        word-break: break-word;
       }
     }
   }
