@@ -2,7 +2,7 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-1 abbr">
+        <div class="col-sm-3 abbr">
           {%- if entry.abbr -%}
             {%- if site.data.venues[entry.abbr] -%}
               {%- assign venue_style = nil -%}
@@ -36,7 +36,7 @@
                 </div> -->
 
         <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="col-sm-7">
+        <div id="{{entry.key}}" class="col-sm-6">
         {% if entry.type == "thesis" -%}
           {{reference}}
         {%- else %}
