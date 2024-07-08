@@ -79,22 +79,35 @@ layout: default
           {%- endif %}
 
           <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
-            <div class="publications">
-              <h3>Selected Papers</h3>
-              (*) indicates equal contribution <br>
-              {% bibliography -f {{ site.scholar.bibliography }} -q @*[keyword=selected]* %}
-            </div>
-            <div class="full-list-button">
-              <a href="{{ '/publications/' | relative_url }}" class="btn btn-primary">Full List</a>
-            </div>
+          <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
+          
+          <h3>Selected Papers</h3>
+          (*) indicates equal contribution <br>
+          <h2 class="year">2024</h2>
+          <div class="publications">
+            {% bibliography -f {{ site.scholar.bibliography }} -q @*[year=2024] and @*[selected=true]* %}
+          </div>
+          <h2 class="year">2023</h2>
+          <div class="publications">
+            {% bibliography -f {{ site.scholar.bibliography }} -q @*[year=2023] and @*[selected=true]* %}
+          </div>
+          <h2 class="year">2022</h2>
+          <div class="publications">
+            {% bibliography -f {{ site.scholar.bibliography }} -q @*[year=2022] and @*[selected=true]* %}
+          </div>
+          
+          <div class="full-list-button">
+            <a href="{{ '/publications/' | relative_url }}" class="btn btn-primary">Full List</a>
+          </div>
+
+          <!-- {% if page.selected_papers -%}
+            
           {% else %}
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
             (*) indicates equal contribution <br>
             <h2 class="year">2024</h2>
             <div class="publications">
-              {% bibliography -f {{ site.scholar.bibliography }} -q @*[year=2024]* %}
+              {% bibliography -f {{ site.scholar.bibliography }} -q @*[year=2024] * %}
             </div>
             <h2 class="year">2023</h2>
             <div class="publications">
@@ -104,7 +117,7 @@ layout: default
             <div class="publications">
               {% bibliography -f {{ site.scholar.bibliography }} -q @*[year=2022]* %}
             </div>
-          {% endif %}
+          {% endif %} -->
           
         </article>
 
