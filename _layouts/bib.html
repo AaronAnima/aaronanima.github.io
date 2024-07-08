@@ -11,7 +11,13 @@
               {%- endif -%}
               <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}> <a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
             {%- else -%}
-                <abbr class="badge">{{entry.abbr}}<br>{{entry.year}}</abbr>
+            
+                {%- if entry.abbryear -%}
+                  <abbr class="badge">{{entry.abbr}}<br>{{entry.abbryear}}</abbr>
+                {%- else -%}
+                <abbr class="badge">{{entry.abbr}}</abbr>
+                {%- endif -%}
+
                 {%- if entry.oral == 'Oral' -%}
                   <br><span class="award badge">Oral</span>
                 {%- endif -%}
