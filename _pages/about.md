@@ -16,5 +16,5 @@ social: true  # includes social icons at the bottom of the page
 ---
 I am a final year Ph.D. student in the School of Computer Science at PKU, advised by Prof. [Hao Dong](https://cfcs.pku.edu.cn/english/people/faculty/haodong/index.htm).
 I received my bachelor degree in 2021, from [Turing Class](https://cfcs.pku.edu.cn/english/research/turingprogram/introduction1/index.htm) in PKU.
-Currently, I am excited to be working with [Jianlan Luo](https://people.eecs.berkeley.edu/~jianlanluo/) at [AgiBot](https://www.agibot.com/) on some challenging problems.
+In 2025, I had the valuable opportunity to work with [Jianlan Luo](https://people.eecs.berkeley.edu/~jianlanluo/) at [AgiBot](https://www.agibot.com/) for six months on several challenging problems. Although the project details remain confidential, it was an incredibly rewarding experience collaborating on cutting-edge research initiatives.
 My recent research focuses on real world reinforcement learning algorithms and robotic systems with tactile sensing, building future data-flying-wheel applications.
