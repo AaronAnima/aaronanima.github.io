@@ -2,19 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: A third-year Ph.D. student in <a href="https://english.pku.edu.cn/">Peking University (PKU)</a>.
+subtitle: Ph.D. Candidate at <a href="https://english.pku.edu.cn/">Peking University</a> | Seeking Opportunities
 profile:
   align: left
   image: wmd_23_10.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
 
-news: true  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: true
+latest_posts: false
+selected_papers: true
+social: true
 ---
-I am a final year Ph.D. student in the School of Computer Science at PKU, advised by Prof. [Hao Dong](https://cfcs.pku.edu.cn/english/people/faculty/haodong/index.htm).
-I received my bachelor degree in 2021, from [Turing Class](https://cfcs.pku.edu.cn/english/research/turingprogram/introduction1/index.htm) in PKU.
-In 2025, I had the valuable opportunity to work with [Jianlan Luo](https://people.eecs.berkeley.edu/~jianlanluo/) at [AgiBot](https://www.agibot.com/) for six months on several challenging problems. Although the project details remain confidential, it was an incredibly rewarding experience collaborating on cutting-edge research initiatives.
-My recent research focuses on real world reinforcement learning algorithms and robotic systems with tactile sensing, building future data-flying-wheel applications.
+I am a final-year Ph.D. candidate in the School of Computer Science at PKU, advised by Prof. [Hao Dong](https://cfcs.pku.edu.cn/english/people/faculty/haodong/index.htm). I received my bachelor's degree in 2021 from the [Turing Class](https://cfcs.pku.edu.cn/english/research/turingprogram/introduction1/index.htm) at PKU.
+
+In 2025, I worked with [Jianlan Luo](https://people.eecs.berkeley.edu/~jianlanluo/) at [AgiBot](https://www.agibot.com/) on confidential, cutting-edge research projects. My research focuses on real-world reinforcement learning and tactile robotic systems, with a vision to build **self-evolving robotic foundation models** through autonomous data-flywheels.
+
+**I am actively seeking full-time roles** in research and engineering to advance next-generation robotic systems.
