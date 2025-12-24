@@ -18,4 +18,4 @@ I am a final-year Ph.D. candidate in the School of Computer Science at PKU, advi
 
 In 2025, I worked with [Jianlan Luo](https://people.eecs.berkeley.edu/~jianlanluo/) at [AgiBot](https://www.agibot.com/) on confidential, cutting-edge research projects. My research focuses on real-world reinforcement learning and tactile robotic systems, with a vision to build **self-evolving robotic foundation models** through autonomous data-flywheels.
 
-**I am actively seeking full-time roles** in research and engineering to advance next-generation robotic systems.
+<!-- **I am actively seeking full-time roles** in research and engineering to advance next-generation robotic systems. -->
